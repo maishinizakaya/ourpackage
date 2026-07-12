@@ -12,10 +12,10 @@
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Fonts -->
+  <!-- Fonts (Oswald for Titles, Inter for Body Text, Noto Serif JP for Kanji Accents) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Inter:wght@400;500;600&family=Noto+Serif+JP:wght@500;700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -34,23 +34,25 @@
     <div class="container position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <h1 class="sitename">Maishin Izakaya</h1>
-        <span>.</span>
+        <h1 class="sitename">Maishin Izakaya <span class="kanji-accent">邁進</span></h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home<br></a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#menu">Menu</a></li>
-          <li><a href="#chefs">Our Team</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#menu">Menus</a></li>
+          <li><a href="#events">Packages</a></li>
+          <li><a href="#testimonials">Review</a></li>
+          <li><a href="#chefs">Our Chefs</a></li>
+          <li><a href="#gallery">Our Gallery</a></li>
+          <li><a href="#contact">Address & Map</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="index.html#book-a-table">Reserve a Table</a>
+      <!-- WhatsApp Button (Replace 628123456789 with your actual WhatsApp phone number) -->
+      <a class="btn-getstarted" href="https://wa.me/628123456789?text=Hi%20Maishin%20Izakaya,%20I%20would%20like%20to%20reserve%20a%20table." target="_blank"><i class="bi bi-whatsapp"></i> Contact Us</a>
 
     </div>
   </header>
@@ -62,15 +64,14 @@
       <div class="container">
         <div class="row gy-4 justify-content-center justify-content-lg-between">
           <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h1 data-aos="fade-up">Immerse Yourself in<br>Premium Izakaya Mood</h1>
-            <p data-aos="fade-up" data-aos-delay="100">Carefully crafted dishes paired with perfectly chilled, effervescent Japanese highballs.</p>
+            <h1 data-aos="fade-up">Immerse Yourself in <br><span class="kanji-accent-large">居酒屋</span> Premium Mood</h1>
+            <p data-aos="fade-up" data-aos-delay="100">Carefully crafted authentic dishes paired with perfectly chilled, effervescent Japanese highballs.</p>
             <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-              <a href="#book-a-table" class="btn-get-started">Book a Table</a>
-            </a>
+              <a href="https://wa.me/628123456789" class="btn-get-started" target="_blank">Book via WhatsApp</a>
             </div>
           </div>
           <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="Maishin Premium Highball">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
           </div>
         </div>
       </div>
@@ -79,43 +80,35 @@
     <!-- About Section -->
     <section id="about" class="about section">
       <div class="container section-title" data-aos="fade-up">
-        <h2>About Us<br></h2>
+        <h2>About Us <span class="kanji-accent-sub">我々について</span></h2>
         <p><span>Discover the Essence of</span> <span class="description-title">Maishin Izakaya</span></p>
       </div>
 
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/about.jpg" class="img-fluid mb-4" alt="Maishin Ambience">
-            <div class="book-a-table">
-              <h3>Reservations</h3>
-              <p>+62 24 1234 5678</p>
-            </div>
+            <img src="assets/img/about.jpg" class="img-fluid mb-4" alt="">
           </div>
           <div class="col-lg-5" data-aos="fade-up" data-aos-delay="250">
             <div class="content ps-0 ps-lg-5">
               <p class="fst-italic">
-                Welcome to Maishin Izakaya, where the timeless tradition of Japanese night culture meets modern sophistication.
+                Welcome to Maishin Izakaya, where timeless Japanese night culture matches modern presentation elegance.
               </p>
               <ul>
-                <li><i class="bi bi-check-circle-fill"></i> <span>A vibrant, premium mood perfect for unwinding after hours.</span></li>
-                <li><i class="bi bi-check-circle-fill"></i> <span>Artisanal highballs prepared with ultra-clear ice and perfectly balanced spirits.</span></li>
-                <li><i class="bi bi-check-circle-fill"></i> <span>A curated selection of yakitori, fresh sashimi, and traditional small plates.</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span>A vibrant, premium mood perfect for after-hours relaxation.</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span>Artisanal highballs engineered with macro close-up clarity and crisp carbonation physics.</span></li>
               </ul>
-              <p>
-                Every detail, from the gentle glow of our lanterns to the crisp carbonation in your glass, is choreographed to transport you straight to the heart of Tokyo.
-              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Menu Section -->
+    <!-- Menus Section -->
     <section id="menu" class="menu section">
       <div class="container section-title" data-aos="fade-up">
-        <h2>Our Menu</h2>
-        <p><span>Explore Our</span> <span class="description-title">Izakaya Specialties</span></p>
+        <h2>Menus <span class="kanji-accent-sub">品書き</span></h2>
+        <p><span>Check Our</span> <span class="description-title">Izakaya Specialties</span></p>
       </div>
 
       <div class="container">
@@ -125,37 +118,16 @@
               <h4>Signature Highballs</h4>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-breakfast">
-              <h4>Small Plates</h4>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-lunch">
-              <h4>Yakitori</h4>
-            </a>
-          </li>
         </ul>
 
         <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
           <div class="tab-pane fade active show" id="menu-starters">
-            <div class="tab-header text-center">
-              <p>Craft Cocktails</p>
-              <h3>Signature Highballs</h3>
-            </div>
-
             <div class="row gy-5">
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt="Classic Highball"></a>
+                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Classic Toki Highball</h4>
-                <p class="ingredients">Suntory Toki, crisp sparkling water, twisted lemon peel, hand-carved ice pillar.</p>
+                <p class="ingredients">Suntory Whisky, crisp sparkling soda, lemon twist, hand-carved ice pillar.</p>
                 <p class="price">IDR 125k</p>
-              </div>
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt="Yuzu Highball"></a>
-                <h4>Yuzu Infused Highball</h4>
-                <p class="ingredients">Premium whisky, fresh pressed yuzu juice, sparkling soda, fresh mint leaves.</p>
-                <p class="price">IDR 135k</p>
               </div>
             </div>
           </div>
@@ -163,114 +135,130 @@
       </div>
     </section>
 
-    <!-- Book A Table Section -->
-    <section id="book-a-table" class="book-a-table section">
+    <!-- Packages Section (Preserved & Protected!) -->
+    <section id="events" class="events section">
       <div class="container section-title" data-aos="fade-up">
-        <h2>Book A Table</h2>
-        <p><span>Reserve Your</span> <span class="description-title">Izakaya Experience</span></p>
+        <h2>Packages <span class="kanji-accent-sub">宴会プラン</span></h2>
+        <p><span>Host Your</span> <span class="description-title">Special Gatherings</span></p>
       </div>
 
-      <div class="container">
-        <div class="row g-0" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-4 reservation-img" style="background-image: url(assets/img/reservation.jpg);"></div>
-          <div class="col-lg-8 d-flex align-items-center reservation-form-bg" data-aos="fade-up" data-aos-delay="200">
-            <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form">
-              <div class="row gy-4">
-                <div class="col-lg-4 col-md-6">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" required="">
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <input type="date" name="date" class="form-control" id="date" placeholder="Date" required="">
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <input type="time" class="form-control" name="time" id="time" placeholder="Time" required="">
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <input type="number" class="form-control" name="people" id="people" placeholder="# of people" required="">
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": { "delay": 5000 },
+              "slidesPerView": "auto",
+              "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true },
+              "breakpoints": {
+                "320": { "slidesPerView": 1, "spaceBetween": 40 },
+                "1200": { "slidesPerView": 3, "spaceBetween": 1 }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-1.jpg)">
+              <h3>Birthday Parties</h3>
+              <div class="price align-self-start">Contact for Price</div>
+              <p class="description">Celebrate your special milestones with custom group platters and custom flight menus.</p>
+            </div>
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-2.jpg)">
+              <h3>Social Gatherings</h3>
+              <div class="price align-self-start">Custom Rates</div>
+              <p class="description">Ideal after-hours space layout for premium networking groups and casual community assemblies.</p>
+            </div>
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-3.jpg)">
+              <h3>Corporate Mixers</h3>
+              <div class="price align-self-start">VIP Private</div>
+              <p class="description">Immersive private floor configurations paired with curated drink matching experiences.</p>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Review Section -->
+    <section id="testimonials" class="testimonials section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Reviews <span class="kanji-accent-sub">評価</span></h2>
+        <p><span>What Customers Are</span> <span class="description-title">Saying About Us</span></p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper init-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>The crisp liquid presentation of the highballs matches the upscale aesthetic flawlessly. Easily the most premium izakaya atmosphere around.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Ryu Tanaka</h3>
+                      <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Special Requests (e.g., Counter seating)"></textarea>
-              </div>
-              <div class="text-center mt-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your booking request was sent. Thank you!</div>
-                <button type="submit">Book a Table</button>
-              </div>
-            </form>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Gallery Section -->
+    <!-- Our Chefs Section -->
+    <section id="chefs" class="chefs section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Our Chefs <span class="kanji-accent-sub">料理人</span></h2>
+        <p><span>Our</span> <span class="description-title">Professional Culinary Team</span></p>
+      </div>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/chefs/chefs-1.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Walter White</h4>
+                <span>Master Chef</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Gallery Section -->
     <section id="gallery" class="gallery section light-background">
       <div class="container section-title" data-aos="fade-up">
-        <h2>Gallery</h2>
+        <h2>Our Gallery <span class="kanji-accent-sub">画廊</span></h2>
         <p><span>Glimpse Our</span> <span class="description-title">Premium Spaces</span></p>
       </div>
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="swiper init-swiper">
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-1.jpg"><img src="assets/img/gallery/gallery-1.jpg" class="img-fluid" alt="Highball Macro Close-up"></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-2.jpg"><img src="assets/img/gallery/gallery-2.jpg" class="img-fluid" alt="Izakaya Dining Mood"></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-1.jpg"><img src="assets/img/gallery/gallery-1.jpg" class="img-fluid" alt=""></a></div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Address / Map Section -->
     <section id="contact" class="contact section">
       <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
+        <h2>Address & Map <span class="kanji-accent-sub">地図</span></h2>
         <p><span>Find Us At</span> <span class="description-title">Semarang</span></p>
       </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-4">
-          <div class="col-md-6">
-            <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
-              <i class="icon bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h3>Address</h3>
-                <p>Jl. Pemuda No. 123, Semarang, Central Java</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
-              <i class="icon bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Call Us</h3>
-                <p>+62 24 1234 5678</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="400">
-              <i class="icon bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3>Email Us</h3>
-                <p>info@maishinizakaya.com</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="500">
-              <i class="icon bi bi-clock flex-shrink-0"></i>
-              <div>
-                <h3>Opening Hours</h3>
-                <p><strong>Mon-Sat:</strong> 5PM - Midnight; <strong>Sunday:</strong> Closed</p>
-              </div>
-            </div>
-          </div>
+        <div class="mb-5">
+          <iframe style="width: 100%; height: 400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.226074218683!2d110.4208226!3d-6.9837943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708b4ea7d8cd09%3A0x4027a76e352eff0!2sSemarang%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1710000000000" frameborder="0" allowfullscreen=""></iframe>
         </div>
       </div>
     </section>
@@ -278,56 +266,10 @@
   </main>
 
   <footer id="footer" class="footer dark-background">
-    <div class="container">
-      <div class="row gy-3">
-        <div class="col-lg-3 col-md-6 d-flex">
-          <i class="bi bi-geo-alt icon"></i>
-          <div class="address">
-            <h4>Address</h4>
-            <p>Jl. Pemuda No. 123</p>
-            <p>Semarang, Central Java</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 d-flex">
-          <i class="bi bi-telephone icon"></i>
-          <div>
-            <h4>Contact</h4>
-            <p>
-              <strong>Phone:</strong> <span>+62 24 1234 5678</span><br>
-              <strong>Email:</strong> <span>info@maishinizakaya.com</span><br>
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 d-flex">
-          <i class="bi bi-clock icon"></i>
-          <div>
-            <h4>Opening Hours</h4>
-            <p>
-              <strong>Mon-Sat:</strong> <span>5PM - Midnight</span><br>
-              <strong>Sunday</strong>: <span>Closed</span>
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <h4>Follow Us</h4>
-          <div class="social-links d-flex">
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">Maishin Izakaya</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com">ThemeWagon</a>
-      </div>
     </div>
   </footer>
-
-  <!-- Scroll Top & Preloader Elements -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-  <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
